@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-
-'''
-Escreva a sua solução aqui
-Code your solution here
-Escriba su solución aquí
-'''# -*- coding: utf-8 -*-
 for i in range(97, 97 + 26):
     if i == 97:print(str(i)+" e a")
     if i == 98:print(str(i)+" e b")
