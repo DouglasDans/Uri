@@ -12,6 +12,6 @@ while x < len(p2):
     p2int.append(float(p2[x]))
     x +=1
 
-valor = math.sqrt((p1int[0] - p1int[1])**2 + (p2int[0] - p2int[1])**2)
+valor = math.sqrt(((p2int[0] - p1int[0])**2) + ((p2int[1] - p1int[1])**2))
 
-print(valor)
+print("%.4f"% valor)
