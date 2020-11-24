@@ -1,7 +1,10 @@
 while True:
     try:
         line = input().split(" ")
-        n1, n2 = line 
-        print(abs(int(n1) - int(n2)))
+        if line[0] == '':break
+        if line[1] == '':break
+        v, t = line
+        a = (int(v) * int(t))*2
+        print(a)
     except EOFError:
         break
